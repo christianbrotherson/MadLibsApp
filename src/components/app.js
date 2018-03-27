@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MadLibForm from './madlib_form';
+import MadlibForm from './madlib_form';
 
 export default class App extends Component {
   render() {
@@ -12,7 +12,7 @@ export default class App extends Component {
               Fill out the fields below and click the generate button<br/>to see the Mad Lib story
             </div>
           </div>
-          <MadLibForm/>
+          <MadlibForm name="Christian"/>
         </div> 
       </div>
     );
